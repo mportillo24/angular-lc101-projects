@@ -13,4 +13,8 @@ export class ButtonsComponent implements OnInit {
 
    ngOnInit() { }
 
+   activateButtons(inactive: boolean) {
+      inactive = true;
+   }
+
 }
